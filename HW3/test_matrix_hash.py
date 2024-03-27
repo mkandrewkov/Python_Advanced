@@ -1,11 +1,12 @@
-from src.matrix_three import MatrixWithHash
+from src.matrix_one import Matrix
 
 
 # Пример использования
-A = MatrixWithHash([[1, 2], [3, 4]])
-B = MatrixWithHash([[5, 5], [5, 5]])
-D = MatrixWithHash([[5, 5], [5, 5]])
-C = MatrixWithHash([[3, 4], [1, 2]])
+A = Matrix([[1, 2], [3, 4]])
+B = Matrix([[5, 5], [5, 5]])
+D = Matrix([[5, 5], [5, 5]])
+C = Matrix([[3, 4], [1, 2]])
+
 path = 'artifacts/3.3/'
 A.save_txt(filename='A.txt', path=path)
 B.save_txt(filename='B.txt', path=path)
@@ -18,7 +19,6 @@ with open(path+'hash.txt', 'w+') as writer:
     writer.write(f"hash AB: {str(hash(A @ B))}, hash CD: {str(hash(C @ D))}")
 
 print((hash(A) == hash(C)), (A != C), (B != D), (A @ B != C @ D))
-print(hash(A), hash(B), hash(C), hash(D), hash(A * B), hash(A + B), hash(A @ B))
 
 """
 Артефакт - 7 файлов.
