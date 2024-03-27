@@ -12,8 +12,8 @@ class Matrix:
     def __init__(self, data: tp.List[tp.List[float]]):
         self.data = data
 
-    def save_txt(self, filename):
-        with open('artifacts/3.1/'+filename, 'w+') as writer:
+    def save_txt(self, filename, path='artifacts/3.1/'):
+        with open(path+filename, 'w+') as writer:
             writer.write(str(self))
 
     def __matmul__(self, other):
