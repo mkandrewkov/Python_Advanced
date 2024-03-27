@@ -1,14 +1,17 @@
 [tool.poetry]
-name = "latex"
+name = "python_advanced"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
-readme = "README.md"
+authors = ["Mikhail Kandriukov <mkandrewkov@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+numpy = "^1.26.4"
 
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[[tool.poetry.packages]]
+include = "HW2/latex"
