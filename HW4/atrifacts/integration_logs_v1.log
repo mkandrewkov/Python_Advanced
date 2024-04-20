@@ -1,0 +1,64 @@
+INFO:root:n_jobs = 1
+INFO:root:Thread workers: 1, Execution time: 0.5033228397369385 sec
+INFO:root:Process workers: 1, Execution time: 1.1279308795928955 sec
+INFO:root:__________________________________________________
+INFO:root:n_jobs = 2
+INFO:root:Thread workers: 2, Execution time: 0.5099771022796631 sec
+INFO:root:Process workers: 2, Execution time: 0.8562171459197998 sec
+INFO:root:__________________________________________________
+INFO:root:n_jobs = 3
+INFO:root:Thread workers: 3, Execution time: 0.4959843158721924 sec
+INFO:root:Process workers: 3, Execution time: 0.7512302398681641 sec
+INFO:root:__________________________________________________
+INFO:root:n_jobs = 4
+INFO:root:Thread workers: 4, Execution time: 0.4949989318847656 sec
+INFO:root:Process workers: 4, Execution time: 0.711655855178833 sec
+INFO:root:__________________________________________________
+INFO:root:n_jobs = 5
+INFO:root:Thread workers: 5, Execution time: 0.4957282543182373 sec
+INFO:root:Process workers: 5, Execution time: 0.7084851264953613 sec
+INFO:root:__________________________________________________
+INFO:root:n_jobs = 6
+INFO:root:Thread workers: 6, Execution time: 0.4966442584991455 sec
+INFO:root:Process workers: 6, Execution time: 0.7119762897491455 sec
+INFO:root:__________________________________________________
+INFO:root:n_jobs = 7
+INFO:root:Thread workers: 7, Execution time: 0.4965970516204834 sec
+INFO:root:Process workers: 7, Execution time: 0.7261061668395996 sec
+INFO:root:__________________________________________________
+INFO:root:n_jobs = 8
+INFO:root:Thread workers: 8, Execution time: 0.5007731914520264 sec
+INFO:root:Process workers: 8, Execution time: 0.739112138748169 sec
+INFO:root:__________________________________________________
+INFO:root:n_jobs = 9
+INFO:root:Thread workers: 9, Execution time: 0.4998483657836914 sec
+INFO:root:Process workers: 9, Execution time: 0.7544851303100586 sec
+INFO:root:__________________________________________________
+INFO:root:n_jobs = 10
+INFO:root:Thread workers: 10, Execution time: 0.49791812896728516 sec
+INFO:root:Process workers: 10, Execution time: 0.75018310546875 sec
+INFO:root:__________________________________________________
+INFO:root:n_jobs = 11
+INFO:root:Thread workers: 11, Execution time: 0.49973320960998535 sec
+INFO:root:Process workers: 11, Execution time: 0.7452020645141602 sec
+INFO:root:__________________________________________________
+INFO:root:n_jobs = 12
+INFO:root:Thread workers: 12, Execution time: 0.5107781887054443 sec
+INFO:root:Process workers: 12, Execution time: 0.746769905090332 sec
+INFO:root:__________________________________________________
+INFO:root:n_jobs = 13
+INFO:root:Thread workers: 13, Execution time: 0.49997401237487793 sec
+INFO:root:Process workers: 13, Execution time: 0.7375428676605225 sec
+INFO:root:__________________________________________________
+INFO:root:n_jobs = 14
+INFO:root:Thread workers: 14, Execution time: 0.4998781681060791 sec
+INFO:root:Process workers: 14, Execution time: 0.7395329475402832 sec
+INFO:root:__________________________________________________
+INFO:root:n_jobs = 15
+INFO:root:Thread workers: 15, Execution time: 0.5077898502349854 sec
+INFO:root:Process workers: 15, Execution time: 0.7380337715148926 sec
+INFO:root:__________________________________________________
+INFO:root:n_jobs = 16
+INFO:root:Thread workers: 16, Execution time: 0.5005052089691162 sec
+INFO:root:Process workers: 16, Execution time: 0.7356171607971191 sec
+INFO:root:__________________________________________________
